@@ -6,7 +6,7 @@ import spring2go.io.authcodeapp.client.userinfo.UserInfoAPI;
 import spring2go.io.authcodeapp.client.userinfo.UserInfoAPI;
 
 public class ClientAPI {
-    public static final String BASE_URL = "192.168.1.104:8080";
+    public static final String BASE_URL = "10.0.2.2:8080";
 
     public static UserInfoAPI userInfo() {
         RetrofitAPIFactory api = new RetrofitAPIFactory(BASE_URL, null);
